@@ -73,9 +73,11 @@ export default class Page extends Component {
 
 ## Options
 
-| Name               | Description                   |
-| ------------------ | ----------------------------- |
-| ADJUST_NOTHING     | SOFT_INPUT_ADJUST_NOTHING     |
-| ADJUST_PAN         | SOFT_INPUT_ADJUST_PAN         |
-| ADJUST_RESIZE      | SOFT_INPUT_ADJUST_RESIZE      |
-| ADJUST_UNSPECIFIED | SOFT_INPUT_ADJUST_UNSPECIFIED |
+| Name                 | Description                     |
+| -------------------- | ------------------------------- |
+| ADJUST_NOTHING       | SOFT_INPUT_ADJUST_NOTHING       |
+| ADJUST_PAN           | SOFT_INPUT_ADJUST_PAN           |
+| ADJUST_RESIZE        | SOFT_INPUT_ADJUST_RESIZE        |
+| ADJUST_UNSPECIFIED   | SOFT_INPUT_ADJUST_UNSPECIFIED   |
+| STATE_ALWAYS_HIDDEN  | SOFT_INPUT_STATE_ALWAYS_HIDDEN  |
+| STATE_ALWAYS_VISIBLE | SOFT_INPUT_STATE_ALWAYS_VISIBLE |

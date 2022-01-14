@@ -25,6 +25,8 @@ public class SoftInputModeModule extends ReactContextBaseJavaModule {
     private static final String SOFT_INPUT_ADJUST_PAN = "ADJUST_PAN";
     private static final String SOFT_INPUT_ADJUST_RESIZE = "ADJUST_RESIZE";
     private static final String SOFT_INPUT_ADJUST_UNSPECIFIED = "ADJUST_UNSPECIFIED";
+    private static final String SOFT_INPUT_STATE_ALWAYS_HIDDEN = "STATE_ALWAYS_HIDDEN";
+    private static final String SOFT_INPUT_STATE_ALWAYS_VISIBLE = "STATE_ALWAYS_VISIBLE";
 
     public SoftInputModeModule(ReactApplicationContext reactContext) {
         super(reactContext);
@@ -54,6 +56,8 @@ public class SoftInputModeModule extends ReactContextBaseJavaModule {
         constants.put(SOFT_INPUT_ADJUST_PAN, WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
         constants.put(SOFT_INPUT_ADJUST_RESIZE, WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
         constants.put(SOFT_INPUT_ADJUST_UNSPECIFIED, WindowManager.LayoutParams.SOFT_INPUT_ADJUST_UNSPECIFIED);
+        constants.put(SOFT_INPUT_STATE_ALWAYS_HIDDEN, WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+        constants.put(SOFT_INPUT_STATE_ALWAYS_VISIBLE, WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
         return constants;
     }
 
